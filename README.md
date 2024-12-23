@@ -59,7 +59,7 @@ With the dataset cleaned and ready, the next step was preprocessing the data. To
 
 Next, the dataset was split into three subsets: training, validation, and testing. The training set comprised 70% of the total images, which would be used to train the model. The validation set, which accounted for 20% of the data, was used to monitor the model’s performance during training and to tune hyperparameters. Finally, the remaining 10% was reserved for testing, allowing the model's ability to generalize to new, unseen images to be evaluated.
 
-# Building the Deep Learning Model
+## Building the Deep Learning Model
 The model architecture was built using Convolutional Neural Networks (CNNs), which have proven to be highly effective for image classification tasks. CNNs automatically learn features from images through layers that convolve and pool the data. The model consisted of several convolutional layers designed to extract relevant features from the input images, followed by max-pooling layers to reduce dimensionality and increase computational efficiency.
 
 Once the feature extraction was complete, the model included dense layers to make the final classification between the two vehicle classes: cars and motorcycles. TensorFlow and Keras, which provide high-level APIs for developing deep learning models, were used to design and train the model. The choice of CNN for this task was based on its proven success in image-related tasks, particularly in computer vision applications.
